@@ -11,3 +11,19 @@ a[target="top"]{
     background-color: brown;
     height: 20px;
 }
+div[data-color-value="red"] {
+    color:aqua;
+}
+
+[class^="foo-"]{
+    color: red;
+}
+
+[class$="file"]{
+    color: blueviolet;
+}
+
+
+div span{
+    color: rgb(213, 147, 158);
+}
